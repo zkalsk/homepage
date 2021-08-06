@@ -24,7 +24,7 @@
 	# sudo systemctl start httpd.service
 	if [ ! -f /var/www/html/index.html ]; then
 	cd /var/www/html
-	git clone https://github.com/yscoma/homepage.git
+	git clone https://github.com/zkalsk/homepage.git
 	cd homepage
 	mv * ../
 	cd ..
